@@ -19,7 +19,11 @@ struct WelcomeView: View {
                 }
                 
             }, label: {
-                Text("Guardar").padding().background(Color.green)
+                Text("Guardar")
+                    .padding()
+                    .background(Color.green)
+                    .foregroundStyle(.white)
+                    .cornerRadius(10)
             }).padding()
             
             
